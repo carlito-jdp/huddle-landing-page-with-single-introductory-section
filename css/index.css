@@ -139,6 +139,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   body {
+    position: relative;
     min-height: 100vh;
     height: 100%;
     background-image: url("../images/bg-desktop.svg");
@@ -174,12 +175,9 @@ body {
     padding: 0.8em 4em;
   }
   .socials {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    padding-right: 2em;
+    position: absolute;
+    bottom: 0;
+    right: 4em;
   }
 }
 /*# sourceMappingURL=index.css.map */
