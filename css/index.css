@@ -121,8 +121,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-item-align: center;
-      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 3em;
 }
 
@@ -138,8 +139,8 @@ body {
 
 @media screen and (min-width: 1280px) {
   body {
-    position: relative;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     background-image: url("../images/bg-desktop.svg");
     background-position: center;
     background-size: cover;
@@ -152,11 +153,11 @@ body {
     display: none;
   }
   .header {
-    padding: 6em;
+    padding: 1.6em 4em;
   }
   .hero {
     text-align: initial;
-    margin: 6em;
+    margin: 2em 6em;
   }
   .hero__illustration {
     display: block;
@@ -173,9 +174,12 @@ body {
     padding: 0.8em 4em;
   }
   .socials {
-    position: absolute;
-    bottom: 0;
-    right: 5%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 2em;
   }
 }
 /*# sourceMappingURL=index.css.map */

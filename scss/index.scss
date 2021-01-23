@@ -87,7 +87,7 @@ body {
 .socials {
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     padding-bottom: 3em;
 }
 .fab {
@@ -101,8 +101,8 @@ body {
 }
 @media screen and (min-width: 1280px) {
     body {
-        position: relative;
-        height: 100vh;
+        min-height: 100vh;
+        height: 100%;
         background-image: url("../images/bg-desktop.svg");
         background-position: center;
         background-size: cover;
@@ -115,11 +115,11 @@ body {
         display: none;
     }
     .header {
-        padding: 7em 6em;
+        padding: 1.6em 4em;
     }
     .hero {
         text-align: initial;
-        margin: 6em;
+        margin: 2em 6em;
         &__illustration {
             display: block;
             max-width: 780px;
@@ -136,8 +136,8 @@ body {
         padding: 0.8em 4em;
     }
     .socials {
-        position: absolute;
-        bottom: 0;
-        right: 5%;
+        align-self: flex-end;
+        justify-content: flex-end;
+        padding-right: 2em;
     }
 }
