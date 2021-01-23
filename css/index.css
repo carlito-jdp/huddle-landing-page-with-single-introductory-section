@@ -151,6 +151,9 @@ body {
   .header__illustration {
     display: none;
   }
+  .header {
+    padding: 6em;
+  }
   .hero {
     text-align: initial;
     margin: 6em;
