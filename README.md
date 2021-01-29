@@ -1,3 +1,5 @@
+Live code: https://huddle-landing-page-with-single-introductory-section-puce-ten.vercel.app/
+
 # Frontend Mentor - Huddle landing page with single introductory section
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
